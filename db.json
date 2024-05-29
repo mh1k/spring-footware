@@ -1,84 +1,84 @@
 {
-    "shoes": [
-        {
-            "id": "01",
-            "name": "Adidas Ultraboost 21",
-            "imageLink": "https://sneakerpimpbd.co/content/images/thumbs/0002351_ultra-boost-21_600.jpeg",
-            "price": 180,
-            "brand": "Adidas",
-            "productDetails": "The Adidas Ultraboost 21 is the latest iteration of the popular Ultraboost line, known for its superior comfort and performance. This shoe features a Primeknit+ upper that adapts to the shape of your foot, providing a snug and supportive fit. The midsole is equipped with 6% more Boost capsules than its predecessor, delivering an incredible energy return with every step. The Linear Energy Push system in the midfoot and forefoot enhances responsiveness, making it perfect for long-distance running or everyday wear. Additionally, the Stretchweb outsole with Continental™ Rubber ensures exceptional grip and durability on various surfaces. Whether you're a professional athlete or a casual runner, the Ultraboost 21 is designed to meet the demands of your active lifestyle."
-        },
-        {
-            "id": "02",
-            "name": "Nike Air Max 270",
-            "imageLink": "https://sneakerpimpbd.co/content/images/thumbs/0001866_air-max-270-react_600.jpeg",
-            "price": 150,
-            "brand": "Nike",
-            "productDetails": "The Nike Air Max 270 is a standout sneaker known for its eye-catching design and superior comfort. Featuring the largest Air Max unit in the heel to date, this shoe provides exceptional cushioning and impact absorption. The upper is made from a combination of engineered mesh and synthetic materials, offering breathability and support where you need it most. The bootie construction and asymmetrical lacing system ensure a secure and comfortable fit. The dual-density foam midsole provides additional cushioning and stability, while the rubber outsole offers durable traction. Perfect for both casual wear and athletic activities, the Nike Air Max 270 combines innovative design with high-performance features to deliver a sneaker that's as stylish as it is functional."
-        },
-        {
-            "id": "03",
-            "name": "New Balance 990v5",
-            "imageLink": "https://nb.scene7.com/is/image/NB/w990gl5_nb_02_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600",
-            "price": 175,
-            "brand": "New Balance",
-            "productDetails": "The New Balance 990v5 is a quintessential running shoe that has garnered a loyal following for its timeless design and exceptional comfort. Made in the USA, this shoe features a pigskin and mesh upper that provides a perfect blend of durability and breathability. The ENCAP midsole technology combines lightweight foam with a durable polyurethane rim to deliver all-day support and stability. The dual-density foam collar offers cushioned comfort around the ankle, while the blown rubber outsole ensures long-lasting wear and reliable traction. Whether you're hitting the pavement for a run or wearing them for a casual outing, the 990v5 offers the perfect combination of style, comfort, and performance."
-        },
-        {
-            "id": "04",
-            "name": "Asics Gel-Kayano 27",
-            "imageLink": "https://assets.solesense.com/en/images/products/500/asics-gel-kayano-27-french-blue-champagne-1012a649-402_1.jpg",
-            "price": 160,
-            "brand": "Asics",
-            "productDetails": "The Asics Gel-Kayano 27 is a high-performance running shoe designed for stability and comfort. It features a mesh upper that enhances breathability while providing a snug fit. The Dynamic DuoMax™ Support System and Guidance Trusstic™ System work together to improve gait efficiency and reduce the risk of overpronation. The shoe also boasts FlyteFoam® Propel technology in the midsole, which offers excellent bounce back and responsiveness. Rearfoot and forefoot GEL® technology cushioning systems attenuate shock during impact and toe-off phases, allowing movement in multiple planes as the foot transitions through the gait cycle. The Gel-Kayano 27 is perfect for long-distance runners seeking support and comfort."
-        },
-        {
-            "id": "05",
-            "name": "Brooks Ghost 13",
-            "imageLink": "https://www.runnersworld.ltd.uk/acatalog/Brooks-Ghost-13-front-mens.jpg",
-            "price": 130,
-            "brand": "Brooks",
-            "productDetails": "The Brooks Ghost 13 is a versatile running shoe that offers a smooth and balanced ride. Its engineered mesh upper provides a comfortable and secure fit while allowing for ample airflow. The DNA LOFT cushioning in the midsole extends from heel to forefoot, providing a soft and responsive ride without losing durability or responsiveness. The segmented crash pad adapts to each footfall, ensuring smooth transitions and added stability. The Ghost 13 also features a plush interior lining that enhances comfort, making it ideal for long-distance runs or everyday wear. With its reliable performance and comfortable design, the Brooks Ghost 13 is a favorite among runners of all levels."
-        },
-        {
-            "id": "06",
-            "name": "Puma RS-X3",
-            "imageLink": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_800,h_800/global/371570/01/sv01/fnd/PNA/fmt/png/RS-X3-Super-Sneakers",
-            "price": 110,
-            "brand": "Puma",
-            "productDetails": "The Puma RS-X3 takes inspiration from the original RS (Running System) line from the '80s, bringing a bold and exaggerated update to the classic design. This shoe features a mix of mesh, suede, and leather overlays on the upper, creating a dynamic and textured look. The lightweight PU midsole offers exceptional cushioning and comfort, while the rubber outsole provides durable traction. The RS-X3's retro-inspired colorways and chunky silhouette make it a standout sneaker that can elevate any casual outfit. Perfect for those who appreciate a blend of vintage style and modern comfort, the Puma RS-X3 is a must-have for sneaker enthusiasts."
-        },
-        {
-            "id": "07",
-            "name": "Reebok Nano X1",
-            "imageLink": "https://images-cdn.ubuy.qa/647cf4b04dd25a359e5dc48d-reebok-power-rangers-nano-x1-men-s.jpg",
-            "price": 130,
-            "brand": "Reebok",
-            "productDetails": "The Reebok Nano X1 is designed to be the ultimate training shoe, offering versatility, durability, and comfort. Its Flexweave® knit upper provides breathable support and stability, while the EVA foam midsole delivers responsive cushioning for high-impact workouts. The shoe also features a Floatride Energy Foam in the forefoot, offering lightweight, responsive cushioning and support. The durable rubber outsole with a meta-split design enhances traction and flexibility, making it ideal for various training activities, from lifting to running. With its sleek design and advanced technology, the Reebok Nano X1 is perfect for athletes looking to maximize their performance in the gym and beyond."
-        },
-        {
-            "id": "08",
-            "name": "Saucony Triumph 18",
-            "imageLink": "https://149638139.v2.pressablecdn.com/wp-content/uploads/2021/01/Website-Image-Template-49.png",
-            "price": 150,
-            "brand": "Saucony",
-            "productDetails": "The Saucony Triumph 18 is a premium running shoe that offers plush cushioning and a smooth ride. It features a FORMFIT mesh upper that adapts to the shape of your foot, providing a custom fit and enhanced breathability. The PWRRUN+ midsole cushioning is both lightweight and responsive, delivering a bouncy and energetic feel with every stride. The blown rubber outsole provides durability and traction, ensuring a secure grip on various surfaces. The Triumph 18 also includes an updated heel counter for added stability and a streamlined design for a modern look. Whether you're training for a marathon or enjoying a casual run, the Saucony Triumph 18 delivers unmatched comfort and performance."
-        },
-        {
-            "id": "09",
-            "name": "Under Armour HOVR Phantom 2",
-            "imageLink": "https://underarmour.scene7.com/is/image/Underarmour/3024154-001_DEFAULT?rp=standard-30pad|pdpZoomDesktop&scl=0.50&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=850,850",
-            "price": 140,
-            "brand": "Under Armour",
-            "productDetails": "The Under Armour HOVR Phantom 2 is designed to provide a zero-gravity feel, ensuring that every run feels effortless. The UA HOVR™ technology in the midsole offers excellent energy return and impact absorption, while the compression mesh Energy Web contains and molds the UA HOVR™ foam to give back the energy you put in. The SpeedForm® 2.0 sockliner is built into the shoe for added comfort and a seamless fit. The durable rubber outsole with a unique traction pattern ensures stability and grip on various surfaces. The HOVR Phantom 2's sleek and modern design makes it suitable for both performance running and casual wear. Whether you're hitting the gym or going for a run, this shoe provides the perfect combination of style and functionality."
-        },
-        {
-            "id": "10",
-            "name": "Hoka One One Clifton 7",
-            "imageLink": "https://www.theathletesfoot.co.nz/media/catalog/product/cache/ec8945dbe7a391c1e946b836b9ec023c/1/1/1110508.wdds_1_1.jpg",
-            "price": 130,
-            "brand": "Hoka One One",
-            "productDetails": "The Hoka One One Clifton 7 continues the award-winning Clifton legacy, delivering a lightweight and comfortable running experience. The engineered mesh upper offers breathability and a snug fit, while the signature Hoka cushioning provides a plush yet responsive feel. The full-compression EVA midsole absorbs impact and offers superior comfort for long-distance runs. The flat-waisted geometry and Meta-Rocker technology ensure smooth transitions and a stable ride. The Clifton 7 also features a slightly beveled heel design for better stability and a more natural foot strike. Ideal for runners seeking a balance of soft cushioning and lightweight performance, the Clifton 7 is a reliable choice for everyday training."
-        }
-    ]
+  "shoes": [
+    {
+      "id": "01",
+      "name": "Adidas Ultraboost 21",
+      "imageLink": "https://sneakerpimpbd.co/content/images/thumbs/0002351_ultra-boost-21_600.jpeg",
+      "price": 180,
+      "brand": "Adidas",
+      "productDetails": "The Adidas Ultraboost 21 is the latest iteration of the popular Ultraboost line, known for its superior comfort and performance. This shoe features a Primeknit+ upper that adapts to the shape of your foot, providing a snug and supportive fit. The midsole is equipped with 6% more Boost capsules than its predecessor, delivering an incredible energy return with every step. The Linear Energy Push system in the midfoot and forefoot enhances responsiveness, making it perfect for long-distance running or everyday wear. Additionally, the Stretchweb outsole with Continental™ Rubber ensures exceptional grip and durability on various surfaces. Whether you're a professional athlete or a casual runner, the Ultraboost 21 is designed to meet the demands of your active lifestyle."
+    },
+    {
+      "id": "02",
+      "name": "Nike Air Max 270",
+      "imageLink": "https://sneakerpimpbd.co/content/images/thumbs/0001866_air-max-270-react_600.jpeg",
+      "price": 150,
+      "brand": "Nike",
+      "productDetails": "The Nike Air Max 270 is a standout sneaker known for its eye-catching design and superior comfort. Featuring the largest Air Max unit in the heel to date, this shoe provides exceptional cushioning and impact absorption. The upper is made from a combination of engineered mesh and synthetic materials, offering breathability and support where you need it most. The bootie construction and asymmetrical lacing system ensure a secure and comfortable fit. The dual-density foam midsole provides additional cushioning and stability, while the rubber outsole offers durable traction. Perfect for both casual wear and athletic activities, the Nike Air Max 270 combines innovative design with high-performance features to deliver a sneaker that's as stylish as it is functional."
+    },
+    {
+      "id": "03",
+      "name": "New Balance 990v5",
+      "imageLink": "https://nb.scene7.com/is/image/NB/w990gl5_nb_02_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600",
+      "price": 175,
+      "brand": "New Balance",
+      "productDetails": "The New Balance 990v5 is a quintessential running shoe that has garnered a loyal following for its timeless design and exceptional comfort. Made in the USA, this shoe features a pigskin and mesh upper that provides a perfect blend of durability and breathability. The ENCAP midsole technology combines lightweight foam with a durable polyurethane rim to deliver all-day support and stability. The dual-density foam collar offers cushioned comfort around the ankle, while the blown rubber outsole ensures long-lasting wear and reliable traction. Whether you're hitting the pavement for a run or wearing them for a casual outing, the 990v5 offers the perfect combination of style, comfort, and performance."
+    },
+    {
+      "id": "04",
+      "name": "Asics Gel-Kayano 27",
+      "imageLink": "https://assets.solesense.com/en/images/products/500/asics-gel-kayano-27-french-blue-champagne-1012a649-402_1.jpg",
+      "price": 160,
+      "brand": "Asics",
+      "productDetails": "The Asics Gel-Kayano 27 is a high-performance running shoe designed for stability and comfort. It features a mesh upper that enhances breathability while providing a snug fit. The Dynamic DuoMax™ Support System and Guidance Trusstic™ System work together to improve gait efficiency and reduce the risk of overpronation. The shoe also boasts FlyteFoam® Propel technology in the midsole, which offers excellent bounce back and responsiveness. Rearfoot and forefoot GEL® technology cushioning systems attenuate shock during impact and toe-off phases, allowing movement in multiple planes as the foot transitions through the gait cycle. The Gel-Kayano 27 is perfect for long-distance runners seeking support and comfort."
+    },
+    {
+      "id": "05",
+      "name": "Brooks Ghost 13",
+      "imageLink": "https://www.runnersworld.ltd.uk/acatalog/Brooks-Ghost-13-front-mens.jpg",
+      "price": 130,
+      "brand": "Brooks",
+      "productDetails": "The Brooks Ghost 13 is a versatile running shoe that offers a smooth and balanced ride. Its engineered mesh upper provides a comfortable and secure fit while allowing for ample airflow. The DNA LOFT cushioning in the midsole extends from heel to forefoot, providing a soft and responsive ride without losing durability or responsiveness. The segmented crash pad adapts to each footfall, ensuring smooth transitions and added stability. The Ghost 13 also features a plush interior lining that enhances comfort, making it ideal for long-distance runs or everyday wear. With its reliable performance and comfortable design, the Brooks Ghost 13 is a favorite among runners of all levels."
+    },
+    {
+      "id": "06",
+      "name": "Puma RS-X3",
+      "imageLink": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_800,h_800/global/371570/01/sv01/fnd/PNA/fmt/png/RS-X3-Super-Sneakers",
+      "price": 110,
+      "brand": "Puma",
+      "productDetails": "The Puma RS-X3 takes inspiration from the original RS (Running System) line from the '80s, bringing a bold and exaggerated update to the classic design. This shoe features a mix of mesh, suede, and leather overlays on the upper, creating a dynamic and textured look. The lightweight PU midsole offers exceptional cushioning and comfort, while the rubber outsole provides durable traction. The RS-X3's retro-inspired colorways and chunky silhouette make it a standout sneaker that can elevate any casual outfit. Perfect for those who appreciate a blend of vintage style and modern comfort, the Puma RS-X3 is a must-have for sneaker enthusiasts."
+    },
+    {
+      "id": "07",
+      "name": "Reebok Nano X1",
+      "imageLink": "https://images-cdn.ubuy.qa/647cf4b04dd25a359e5dc48d-reebok-power-rangers-nano-x1-men-s.jpg",
+      "price": 130,
+      "brand": "Reebok",
+      "productDetails": "The Reebok Nano X1 is designed to be the ultimate training shoe, offering versatility, durability, and comfort. Its Flexweave® knit upper provides breathable support and stability, while the EVA foam midsole delivers responsive cushioning for high-impact workouts. The shoe also features a Floatride Energy Foam in the forefoot, offering lightweight, responsive cushioning and support. The durable rubber outsole with a meta-split design enhances traction and flexibility, making it ideal for various training activities, from lifting to running. With its sleek design and advanced technology, the Reebok Nano X1 is perfect for athletes looking to maximize their performance in the gym and beyond."
+    },
+    {
+      "id": "08",
+      "name": "Saucony Triumph 18",
+      "imageLink": "https://149638139.v2.pressablecdn.com/wp-content/uploads/2021/01/Website-Image-Template-49.png",
+      "price": 150,
+      "brand": "Saucony",
+      "productDetails": "The Saucony Triumph 18 is a premium running shoe that offers plush cushioning and a smooth ride. It features a FORMFIT mesh upper that adapts to the shape of your foot, providing a custom fit and enhanced breathability. The PWRRUN+ midsole cushioning is both lightweight and responsive, delivering a bouncy and energetic feel with every stride. The blown rubber outsole provides durability and traction, ensuring a secure grip on various surfaces. The Triumph 18 also includes an updated heel counter for added stability and a streamlined design for a modern look. Whether you're training for a marathon or enjoying a casual run, the Saucony Triumph 18 delivers unmatched comfort and performance."
+    },
+    {
+      "id": "09",
+      "name": "Under Armour HOVR Phantom 2",
+      "imageLink": "https://underarmour.scene7.com/is/image/Underarmour/3024154-001_DEFAULT?rp=standard-30pad|pdpZoomDesktop&scl=0.50&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=850,850",
+      "price": 140,
+      "brand": "Under Armour",
+      "productDetails": "The Under Armour HOVR Phantom 2 is designed to provide a zero-gravity feel, ensuring that every run feels effortless. The UA HOVR™ technology in the midsole offers excellent energy return and impact absorption, while the compression mesh Energy Web contains and molds the UA HOVR™ foam to give back the energy you put in. The SpeedForm® 2.0 sockliner is built into the shoe for added comfort and a seamless fit. The durable rubber outsole with a unique traction pattern ensures stability and grip on various surfaces. The HOVR Phantom 2's sleek and modern design makes it suitable for both performance running and casual wear. Whether you're hitting the gym or going for a run, this shoe provides the perfect combination of style and functionality."
+    },
+    {
+      "id": "10",
+      "name": "Hoka One One Clifton 7",
+      "imageLink": "https://www.theathletesfoot.co.nz/media/catalog/product/cache/ec8945dbe7a391c1e946b836b9ec023c/1/1/1110508.wdds_1_1.jpg",
+      "price": 130,
+      "brand": "Hoka One One",
+      "productDetails": "The Hoka One One Clifton 7 continues the award-winning Clifton legacy, delivering a lightweight and comfortable running experience. The engineered mesh upper offers breathability and a snug fit, while the signature Hoka cushioning provides a plush yet responsive feel. The full-compression EVA midsole absorbs impact and offers superior comfort for long-distance runs. The flat-waisted geometry and Meta-Rocker technology ensure smooth transitions and a stable ride. The Clifton 7 also features a slightly beveled heel design for better stability and a more natural foot strike. Ideal for runners seeking a balance of soft cushioning and lightweight performance, the Clifton 7 is a reliable choice for everyday training."
+    }
+  ]
 }

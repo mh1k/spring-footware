@@ -11,13 +11,16 @@ const DashboardLayout = () => {
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
-                    {/* Sidebar content here */}
-                    <li className=""><Link to="/dashboard/products">All Products</Link></li>
-                    <li><Link></Link></li>
-                    <li><Link></Link></li>
-                    
-                </ul>
+                <div className="min-h-full bg-base-200 ">
+                    <h1 className="text-center p-4 text-lg font-semibold mb-5 border-b-2">FOOTWARE</h1>
+                    <ul className="menu p-4 w-80 bg-base-200 text-base-content">
+                        {/* Sidebar content here */}
+                        <li className="text-base"><Link to={"/dashboard"}>Dashboard</Link></li>
+                        <li className="text-base"><Link to={"/dashboard/products"}>All Products</Link></li>
+                        <li className="text-base"><Link to={"/dashboard/add-product"}>Add Product</Link></li>
+                        <li className="text-base"><Link to={"/"}>Back to Home</Link></li>
+                    </ul>
+                </div>
 
             </div>
         </div>
