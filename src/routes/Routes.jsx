@@ -9,6 +9,7 @@ import DashboardLayout from "../layouts/DashboardLayout";
 import PrivateRoutes from "./PrivateRoutes/PrivateRoutes";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import ProductDetails from "../components/products/ProductDetails";
+import AllProducts from "../pages/Dashboard/AllProducts";
 
 
 const router = createBrowserRouter([
@@ -50,8 +51,12 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
-                path: "/dashboard/home",
+                path: "/dashboard",
                 element: <Dashboard></Dashboard>,
+            },
+            {
+                path: "/dashboard/products",
+                element: <AllProducts></AllProducts>,
             },
         ]
     }
