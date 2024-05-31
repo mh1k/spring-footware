@@ -24,7 +24,7 @@ const DashboardProduct = ({ shoe, onDeleteProduct }) => {
                             title: "Deleted!",
                             text: "Product has been deleted.",
                             icon: "success",
-                            timer: 1000,
+                            timer: 1500,
                             showConfirmButton: false
                         });
                         console.log(data);
@@ -49,7 +49,7 @@ const DashboardProduct = ({ shoe, onDeleteProduct }) => {
                 <h2 className="text-base">Brand : {shoe.brand}</h2>
                 <h2 className="text-base">Price : {shoe.price} $</h2>
                 {/* // eslint-disable-next-line react/prop-types */}
-                <p>{shoe.productDetails.slice(0, 75)}...<Link to=""> <a className="text-blue-500">Read more</a></Link></p>
+                <p>{shoe.productDetails.slice(0, 75)}...<Link to={`/products/${shoe.id}`}> <a className="text-blue-500">Read more</a></Link></p>
                 <div className="card-actions justify-between ">
                     {/* // eslint-disable-next-line react/prop-types */}
                     <Link to={`/dashboard/products/edit-product/${shoe.id}`}><button className="btn bg-green-500 text-white px-6">Edit</button></Link>

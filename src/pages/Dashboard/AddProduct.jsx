@@ -28,7 +28,7 @@ const AddProduct = () => {
                 if (data) {
                     Swal.fire({
                         title: "Successfully Added",
-                        timer: 1000,
+                        timer: 1500,
                         showConfirmButton: false,
                         // text: "You clicked the button!",
                         icon: "success",
