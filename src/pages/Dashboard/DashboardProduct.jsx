@@ -23,7 +23,9 @@ const DashboardProduct = ({ shoe, onDeleteProduct }) => {
                         Swal.fire({
                             title: "Deleted!",
                             text: "Product has been deleted.",
-                            icon: "success"
+                            icon: "success",
+                            timer: 1000,
+                            showConfirmButton: false
                         });
                         console.log(data);
                         // eslint-disable-next-line react/prop-types
@@ -31,7 +33,7 @@ const DashboardProduct = ({ shoe, onDeleteProduct }) => {
                     });
 
 
-               
+
             }
         });
 
