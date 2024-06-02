@@ -7,13 +7,13 @@ const AllProducts = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/shoes/")
+        fetch("http://localhost:5000/shoes/")
             .then((res) => res.json())
             .then((data) => setProducts(data));
     }, []);
 
     const handleDeleteProduct = (id) => {
-        setProducts(products.filter((product) => product.id !== id));
+        setProducts(products.filter((product) => product._id !== id));
       };
 
     return (
@@ -23,7 +23,7 @@ const AllProducts = () => {
             </div>
             <div className="mx-10 flex flex-row flex-wrap justify-center  gap-5  mt-10 mb-4">
                 {
-                    products.map(shoe => <DashboardProduct key={shoe?.id} shoe={shoe} onDeleteProduct={handleDeleteProduct}></DashboardProduct>)
+                    products.map(shoe => <DashboardProduct key={shoe?._id} shoe={shoe} onDeleteProduct={handleDeleteProduct}></DashboardProduct>)
                 }
             </div>
         </>

@@ -15,7 +15,7 @@ const Home = () => {
             </div>
             <div className="mx-10 flex flex-row flex-wrap  gap-5  mt-10">
                 {
-                data.map(shoe => <Products key={shoe?.id} shoe={shoe}></Products>)
+                data?.map(shoe => <Products key={shoe?._id} shoe={shoe}></Products>)
                 }
             </div>
 

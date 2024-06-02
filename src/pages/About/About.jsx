@@ -1,6 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 
 
 const About = () => {
+
+    
     return (
         <div className="p-8  min-h-screen">
             <div className="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">

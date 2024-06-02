@@ -5,7 +5,7 @@ import { getAuth, updateProfile } from "firebase/auth";
 
 const Register = () => {
     const auth = getAuth();
-    const {setUser,createUser} = useAuth()
+    const { setUser, createUser } = useAuth()
 
     const handleRegister = e => {
         e.preventDefault();
@@ -27,6 +27,19 @@ const Register = () => {
                 }).catch((error) => {
                     console.log(error);
                 });
+
+                const newUser = { user: result?.user, name, email: result?.user?.email }
+                fetch('http://localhost:5000/users', {
+                    method: "POST",
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(newUser)
+                })
+                .then((res)=>res.json())
+                .then((data)=>console.log(data))
+
+
                 const info = { ...result.user, displayName: name }
                 setUser(info);
             })
@@ -40,7 +53,7 @@ const Register = () => {
         <div>
             <div className="card">
                 <h2 className="text-3xl mt-8 mb-2 text-center font-semibold">Register</h2>
-                <form onSubmit={handleRegister}  className=" md:w-3/4 lg:w-1/3 mx-auto card-body">
+                <form onSubmit={handleRegister} className=" md:w-3/4 lg:w-1/3 mx-auto card-body">
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Name</span>

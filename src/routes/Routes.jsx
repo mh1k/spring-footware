@@ -12,6 +12,8 @@ import ProductDetails from "../components/products/ProductDetails";
 import AllProducts from "../pages/Dashboard/AllProducts";
 import AddProduct from "../pages/Dashboard/AddProduct";
 import EditProduct from "../pages/Dashboard/EditProduct";
+import Profile from "../pages/Dashboard/Profile";
+import EditProfile from "../pages/Dashboard/EditProfile";
 
 
 const router = createBrowserRouter([
@@ -23,13 +25,13 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
-                loader: () => fetch("http://localhost:3000/shoes"),
+                loader: () => fetch("http://localhost:5000/shoes"),
             },
             {
                 path: "/products/:id",
                 element: <ProductDetails></ProductDetails>,
                 loader: ({ params }) =>
-                    fetch(`http://localhost:3000/shoes/${params.id}`),
+                    fetch(`http://localhost:5000/shoes/${params.id}`),
             },
             {
                 path: "/about",
@@ -57,6 +59,15 @@ const router = createBrowserRouter([
                 element: <Dashboard></Dashboard>,
             },
             {
+                path: "/dashboard/profile",
+                element: <Profile></Profile>,
+            },
+            {
+                path: "/dashboard/profile/edit-profile/:id",
+                element: <EditProfile></EditProfile>,
+                loader: ({ params }) => fetch(`http://localhost:5000/users/get/${params.id}`),
+            },
+            {
                 path: "/dashboard/products",
                 element: <AllProducts></AllProducts>,
             },
@@ -67,7 +78,7 @@ const router = createBrowserRouter([
             {
                 path: "/dashboard/products/edit-product/:id",
                 element: <EditProduct></EditProduct>,
-                loader: ({ params }) => fetch(`http://localhost:3000/shoes/${params.id}`),
+                loader: ({ params }) => fetch(`http://localhost:5000/shoes/${params.id}`),
             },
 
         ]

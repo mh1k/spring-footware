@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { Link, useLocation, useNavigate } from "react-router-dom"
 import { FcGoogle } from "react-icons/fc";
 import useAuth from "../../hooks/useAuth";
@@ -32,6 +33,20 @@ const Login = () => {
     const handleGoogleLogin = () => {
         googleLogin()
             .then((result) => {
+                console.log(result);
+                const newUser = { user: result?.user, name: result?.user?.displayName, email: result?.user?.email }
+                fetch('http://localhost:5000/users', {
+                    method: "POST",
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(newUser)
+                })
+                .then((res)=>res.json())
+                .then((data)=>{
+                    console.log(data);
+                    localStorage.setItem('token', data?.token)
+                })
                 console.log(result.user);
                 navigate(location?.state ? location.state : '/');
             })

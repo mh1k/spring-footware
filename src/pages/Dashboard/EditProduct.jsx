@@ -1,6 +1,9 @@
+import Swal from 'sweetalert2'
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 const EditProduct = () => {
+
+    const token = localStorage.getItem("token");
 
     const shoe = useLoaderData();
 
@@ -9,7 +12,6 @@ const EditProduct = () => {
     const [title, setTitle] = useState(shoe?.name);
     const [price, setPrice] = useState(shoe?.price);
     const [brand, setBrand] = useState(shoe?.brand);
-    const [id, setId] = useState(shoe?.id);
     const [description, setDescription] = useState(shoe?.productDetails);
     const [image_url, setImageURL] = useState(shoe?.imageLink);
 
@@ -17,25 +19,37 @@ const EditProduct = () => {
         e.preventDefault();
         console.log(e);
         const form = e.target;
-        const id = form.id.value;
         const name = form.name.value;
         const imageLink = form.imageLink.value;
         const brand = form.brand.value;
         const price = form.price.value;
         const productDetails = form.productDetails.value;
 
-        const data = { id, name, imageLink, price, brand, productDetails };
+        const data = { name, imageLink, price, brand, productDetails };
         console.log(data);
 
-        await fetch(`http://localhost:3000/shoes/${shoe.id}`, {
+        await fetch(`http://localhost:5000/shoes/${shoe._id}`, {
             method: "PATCH",
             headers: {
                 "Content-type": "application/json",
+                authorization: `Bearer ${token}`,
             },
             body: JSON.stringify(data),
         })
             .then((res) => res.json())
-            .then((data) => console.log(data));
+            .then((data) => {
+                if (data) {
+                    Swal.fire({
+                        title: "Successfully updated",
+                        timer: 1500,
+                        showConfirmButton: false,
+                        // text: "You clicked the button!",
+                        icon: "success",
+                      });
+                    // toast.success("Sucessfully Added");
+                
+                }
+            });
     }
 
     return (
@@ -45,10 +59,7 @@ const EditProduct = () => {
             </div>
 
             <form onSubmit={handleAddProduct} className=" md:w-3/4 lg:w-2/3 mx-auto card-body">
-                <div className="form-control">
-
-                    <input type="text" onChange={(e) => setId(e.target.value)} value={id} required name="id" placeholder="Product Id" className="input input-bordered" />
-                </div>
+                
                 <div className="form-control">
 
                     <input type="text" onChange={(e) => setTitle(e.target.value)} value={title} required name="name" placeholder="Product Name" className="input input-bordered" />
@@ -69,7 +80,7 @@ const EditProduct = () => {
                     <textarea type="text" onChange={(e) => setDescription(e.target.value)} value={description} required name="productDetails" placeholder="Product details..." className="textarea textarea-bordered textarea-md " />
                 </div>
                 <div className="form-control mt-6">
-                    <button className="btn btn-primary">Add Product</button>
+                    <button className="btn btn-primary">Update Product</button>
                 </div>
             </form>
 
